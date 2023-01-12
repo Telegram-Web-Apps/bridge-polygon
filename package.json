@@ -6,6 +6,7 @@
     "build": "rimraf build/bundle.js && rollup --config rollup.config.js"
   },
   "devDependencies": {
+    "@rollup/plugin-html": "^1.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
     "rimraf": "^3.0.2",
