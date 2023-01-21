@@ -1,4 +1,8 @@
-import {init} from 'twa-bridge';
+import {init} from '@twa.js/bridge';
+import 'eruda';
 
-const bridge = init({debug: true});
-(window as any).bridge = bridge;
+// Init eruda.
+(window as any).eruda.init();
+
+// Init bridge.
+(window as any).bridge = init({debug: true});
